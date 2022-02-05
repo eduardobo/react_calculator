@@ -1,12 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import Application from './Application';
 import reportWebVitals from './reportWebVitals';
+import Calculator from './Calculator';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Application />
+    
+    <Calculator/>
   </React.StrictMode>,
   document.getElementById('root')
 );
